@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michał Bartel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/tableContainer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <div class="container">
+        <a name="góra"></a>
+        <nav id="home">
+            <ul class="navigation">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#home">Home</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#o-mnie">Kilka słów o mnie</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#pasje">Inne pasje</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#tulipany">Tulipany</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#kontakt">Kontakt</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#CS">Przykładowa interakcja w CS-ie</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <header class="section section--centered">
+                <img class="section__image" width="200" height="200" src="https://i.postimg.cc/k4wK965H/me.jpg" alt="Michał Bartel">
+                <h1 class="section__header">Michał Bartel</h1>
+            </header>
+            <section id="o-mnie" class="section">
+                <h2 class="section__subHeader">Kilka słów o mnie</h2>
+                <p class="section__paragraph">
+                    <strong> Moją ogromną pasją jest sport.</strong> Od dziecka byłem aktywny fizycznie, trenowałem
+                    piłkę nożną, tenis stołowy. <br>Rower zawsze był moim naturalnym środkiem transportu, tak więc do
+                    pracy jeżdżę rowerem niezależnie od warunków atmosferycznych w myśl powiedzenia - <i>nie ma złej
+                        pogody, są tylko różne rodzaje dobrej.</i>
+
+                </p>
+                <a href="#góra"><img width="25" src="https://i.postimg.cc/v8WV2qqW/uparrow-arriba-5806.png"></a>
+            </section>
+            <section id="pasje" class="section">
+                <h2 class="section__subHeader">Inne pasje</h2>
+                <p class="section__paragraph">
+                    Poza sportem, od kilku lat zajmuje się plantacją <b>tulipanów.</b> Wszystko zaczęło się od podróży
+                    do Holandii. <br>Pola tulipanów zachwyciły mnie do tego stopnia, że postanowiłem, iż zacznę kupować
+                    cebulki tulipanów <br>z Holandii, by kiedyś móc je sprzedawać we własnej kwiaciarni w Polsce.
+                </p>
+                <a href="#góra"><img width="25" src="https://i.postimg.cc/v8WV2qqW/uparrow-arriba-5806.png"></a>
+            </section>
+            <section id="tulipany" class="section">
+                <h2 class="section__subHeader">Tulipany</h2>
+                <p class="section__paragraph">
+                    Na swojej farmie uprawiam wszystkie niżej wymienione rodzaje tulipanów.
+                </p>
+                <div class="tableContainer">
+                    <table class="table">
+                        <caption class="table__caption">Tulipany</caption>
+                        <thead>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="col">Rodzaj</th>
+                                <th class="table__cell table__cell--header" scope="col">Nazwa</th>
+                                <th class="table__cell table__cell--header" scope="col">Zdjęcie</th>
+                                <th class="table__cell table__cell--header" scope="col">Wysokość</th>
+                                <th class="table__cell table__cell--header" scope="col">Cena</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table__row table__row--one">
+                                <th class="table__cell table__cell--header" scope="row">Botanical</th>
+                                <td class="table__cell">Aucheriana</td>
+                                <td class="table__cell"><a rel="noreferrer noopener" target="_blank"
+                                        href="https://tulipexperienceshop.com/en/product/tulipa-botanical-aucheriana"><img
+                                            width="80" class="table__image"
+                                            src="https://i.postimg.cc/3J99DTGm/Aucheriana-Tulipa-1.jpg"
+                                            alt="Aucheriana"></a>
+                                </td>
+                                <td class="table__cell">5cm-10cm</td>
+                                <td class="table__cell">11,55 euro/10 szt</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row" rowspan="2">Coronet</th>
+                                <td class="table__cell">Crown of Dynasty</td>
+                                <td class="table__cell"><a rel="noreferrer noopener" target="_blank"
+                                        href="https://tulipexperienceshop.com/en/product/tulipa-coronet-crown-of-dynasty"><img
+                                            width="80" class="table__image"
+                                            src="https://i.postimg.cc/t4tPtF4Z/Crown-of-Dynasty-Tulipa-1.jpg"
+                                            alt="Crown of Dynasty"></a>
+                                </td>
+                                <td class="table__cell">40cm-45cm</td>
+                                <td class="table__cell">6,40 euro/10 szt</td>
+                            </tr>
+                            <tr class="table__row table__row--one">
+                                <td class="table__cell">Negrita Crown</td>
+                                <td class="table__cell"><a rel="noreferrer noopener" target="_blank"
+                                        href="https://tulipexperienceshop.com/en/product/tulipa-coronet-negrita-crown"><img
+                                            width="80" class="table__image"
+                                            src="https://i.postimg.cc/gJQP0MQf/Negrita-Crown-tulipa-1.jpg"
+                                            alt="Negrita Crown"></a>
+                                </td>
+                                <td class="table__cell">40cm-45cm</td>
+                                <td class="table__cell">4,90 euro/10 szt</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Darwin Hybride</th>
+                                <td class="table__cell">Ad Rem</td>
+                                <td class="table__cell"><a rel="noreferrer noopener" target="_blank"
+                                        href="https://tulipexperienceshop.com/en/product/tulipa-darwin-hybride-ad-rem"><img
+                                            width="80" class="table__image"
+                                            src="https://i.postimg.cc/4yGRtK45/Ad-Rem-Tulipa-1.jpg" alt="Ad Rem"></a>
+                                </td>
+                                <td class="table__cell">45cm-50cm</td>
+                                <td class="table__cell">3,75 euro/10 szt</td>
+                            </tr>
+                            <tr class="table__row table__row--one">
+                                <th class="table__cell table__cell--header" scope="row" rowspan="2">Viridiflora</th>
+                                <td class="table__cell">Groenland</td>
+                                <td class="table__cell"><a rel="noreferrer noopener" target="_blank"
+                                        href="https://tulipexperienceshop.com/en/product/tulipa-viridiflora-groenland"><img
+                                            width="80" class="table__image"
+                                            src="https://i.postimg.cc/GpDfQc5S/Groenland-Tulipa-1.jpg"
+                                            alt="Groenland"></a>
+                                </td>
+                                <td class="table__cell">50cm-55cm</td>
+                                <td class="table__cell">3,55 euro/10 szt</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell">Golden Artist</td>
+                                <td class="table__cell"><a rel="noreferrer noopener" target="_blank"
+                                        href="https://tulipexperienceshop.com/en/product/tulipa-viridiflora-golden-artist"><img
+                                            width="80" class="table__image"
+                                            src="https://i.postimg.cc/s25nWTMk/1662389067345-golden-artist-2.jpg"
+                                            alt="Golden Artist"></a>
+                                </td>
+                                <td class="table__cell">30cm-35cm</td>
+                                <td class="table__cell">4,30 euro/10 szt</td>
+                            </tr>
+                            <tr class="table__row table__row--one">
+                                <th class="table__cell table__cell--header" scope="row">Parrot</th>
+                                <td class="table__cell">Black Parrot</td>
+                                <td class="table__cell"><a rel="noreferrer noopener" target="_blank"
+                                        href="https://tulipexperienceshop.com/en/product/tulipa-parrot-black-parrot"><img
+                                            width="80" class="table__image"
+                                            src="https://i.postimg.cc/9FvtBGHC/1659970497869-Black-Parrot-4.jpg"
+                                            alt="Black Parrot"></a>
+                                </td>
+                                <td class="table__cell">45cm-50cm</td>
+                                <td class="table__cell">4,50 euro/10 szt</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row" rowspan="2">Fringed</th>
+                                <td class="table__cell">Gorilla</td>
+                                <td class="table__cell"><a rel="noreferrer noopener" target="_blank"
+                                        href="https://tulipexperienceshop.com/en/product/tulipa-fringed-gorilla"><img
+                                            width="80" class="table__image"
+                                            src="https://i.postimg.cc/mk7MXns4/Gorilla-Tulipa-1.jpg" alt="Gorilla"></a>
+                                </td>
+                                <td class="table__cell">40cm-45cm</td>
+                                <td class="table__cell">3,95 euro/10 szt</td>
+                            </tr>
+                            <tr class="table__row table__row--one">
+                                <td class="table__cell">Black Jewel</td>
+                                <td class="table__cell"><a rel="noreferrer noopener" target="_blank"
+                                        href="https://tulipexperienceshop.com/en/product/tulipa-fringed-black-jewel"><img
+                                            width="80" class="table__image"
+                                            src="https://i.postimg.cc/Wp0kPxBL/1658324804659-Black-jewel-5.jpg"
+                                            alt="Black Jewel"></a>
+                                </td>
+                                <td class="table__cell">45cm-50cm</td>
+                                <td class="table__cell">5,45 euro/10 szt</td>
+                            </tr>
+                            <tr class="table__row">
+                                <th class="table__cell table__cell--header" scope="row">Multiflowering</th>
+                                <td class="table__cell">Purple Bouquet</td>
+                                <td class="table__cell"><a rel="noreferrer noopener" target="_blank"
+                                        href="https://tulipexperienceshop.com/en/product/tulipa-multflowering-purple-bouquet"><img
+                                            width="80" class="table__image"
+                                            src="https://i.postimg.cc/QxXHZCg1/Purple-Bouquet-Tulipa-2.jpg"
+                                            alt="Purple Bouquet"></a>
+                                </td>
+                                <td class="table__cell">45cm-50cm</td>
+                                <td class="table__cell">4,75 euro/10 szt</td>
+                            </tr>
+                            <tr class="table__row table__row--one">
+                                <th class="table__cell table__cell--header" scope="row" rowspan="2">Lilyflowering</th>
+                                <td class="table__cell">Ballerina</td>
+                                <td class="table__cell"><a rel="noreferrer noopener" target="_blank"
+                                        href="https://tulipexperienceshop.com/en/product/tulipa-lilyflowering-ballerina"><img
+                                            width="80" class="table__image"
+                                            src="https://i.postimg.cc/qqWbnSGd/1600852117256-ballerina3.jpg"
+                                            alt="Ballerina"></a>
+                                </td>
+                                <td class="table__cell">45cm-50cm</td>
+                                <td class="table__cell">3,75 euro/10 szt</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell">Holland Chic</td>
+                                <td class="table__cell"><a rel="noreferrer noopener" target="_blank"
+                                        href="https://tulipexperienceshop.com/en/product/tulipa-lilyflowering-holland-chic"><img
+                                            width="80" class="table__image"
+                                            src="https://i.postimg.cc/Jn6d7GD0/Holland-Chic-Tulipa-4.jpg"
+                                            alt="Holland Chic"></a>
+                                </td>
+                                <td class="table__cell">40cm-45cm</td>
+                                <td class="table__cell">3,75 euro/10 szt</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr class="table__row table__row--one">
+                                <th class="table__cell table__cell--header" colspan="4">Razem</th>
+                                <td class="table__cell">60,6 euro</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <a href="#góra"><img width="25" src="https://i.postimg.cc/v8WV2qqW/uparrow-arriba-5806.png"></a>
+            </section>
+            <section id="kontakt" class="section">
+                <h2 class="section__subHeader">Kontakt</h2>
+                <p class="section__paragraph">
+                    <a href="mailto:bartel.michal@gmail.com" class="navigation__link">bartel.michal@gmail.com</a>
+                    <br>
+                    <a href="tel:510-252-229" class="navigation__link">510-252-229</a>
+                </p>
+                <a href="#góra"><img width="25" src="https://i.postimg.cc/v8WV2qqW/uparrow-arriba-5806.png"></a>
+
+            </section>
+            <section id="CS" class="section">
+                <h2 class="section__subHeader">Przykładowa interakcja w JS-ie</h2>
+                <p class="section__paragraph">
+                    <button class="section__button js-changeBackgroundButton">Ustaw <span
+                            class="js-nextColorName">szare</span> tło
+                        strony</button>
+                </p>
+
+
+            </section>
+        </main>
+        <a href="javascript:scroll(0,0);" class="navigation__link">Ten link przeniesie Cię na górę strony</a>
+    </div>
+    <footer class="footer">
+        Wszelkie prawa zastrzeżone
+    </footer>
+</body>
+
+</html>
